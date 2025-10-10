@@ -1,0 +1,20 @@
+# Data files (don't commit large datasets)
+data/raw/*
+data/processed/*
+*.csv
+*.xlsx
+*.tif
+*.shp
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environment
+.env
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
